@@ -25,9 +25,11 @@
             background-image: url('your-logo-url-here.png'); /* Replace with your logo's URL */
             background-repeat: no-repeat;
             background-position: center;
-            background-size: 80%;
+            background-size: cover;
+            background-attachment: fixed; /* Ensures the background stays stationary */
+            position: relative;
+            overflow-x: hidden;
             opacity: 0.8;
-            z-index: -1;
         }
         header {
             background: #18897f;
